@@ -8,7 +8,9 @@ Dill is the first modular network fully compatible with the Danksharding roadmap
 
 ![Dill Light Validator (1)](https://github.com/user-attachments/assets/24d66592-713e-4616-92d5-0b555a2ed2d8)
 
-
+Follow Me On :
+[X](https://x.com/sormorEth)  
+[medium](https://medium.com/@sormor)
 
 **Download the light validator binary package from:**
 ```
