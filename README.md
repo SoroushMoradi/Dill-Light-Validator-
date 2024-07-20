@@ -5,9 +5,6 @@ Data Availability Network
 Dill is the first modular network fully compatible with the Danksharding roadmap.  
 
 
-
-![Dill Light Validator (1)](https://github.com/user-attachments/assets/24d66592-713e-4616-92d5-0b555a2ed2d8)
-
 **Follow Me On :)**  
 [X](https://x.com/sormorEth)  
 [medium](https://medium.com/@sormor)
@@ -140,6 +137,28 @@ sample:
 ubuntu      1981       1 86 08:09 pts/0    00:00:43 /home/ubuntu/dill/dill-node --light --embedded-geth --datadir /home/ubuntu/dill/light_node/data/beacondata --genesis-state /home/ubuntu/dill/genesis.ssz --grpc-gateway-host 0.0.0.0 --initial-validators /home/ubuntu/dill/validators.j
 ...
 ```
-Done.
 
+#stake
 
+برید به سایت : 
+https://staking.dill.xyz/
+
+**با این کامند زیر فایل json مورد نظرو توی لوکال سیو کنید.**
+به جای deposit_data-xxxx.json باید اسم فایل خودتون باشه.
+```
+cat ./validator_keys/deposit_data-xxxx.json
+```
+
+**بعد توی سایت اپلودش کنید:**
+
+![Untitled](https://github.com/user-attachments/assets/3e01e5c3-eed7-4b6f-979a-ecdec46c5d22)
+
+**به متا مسک کانکت بشید >> قبلش فاست گرفته باشید:**
+
+![3](https://github.com/user-attachments/assets/38a49e7b-2d2c-4f2f-a4f8-f56d34b5b091)
+
+**Send deposit，using MetaMask to send a deposit transaction:**
+
+![4](https://github.com/user-attachments/assets/25d75359-d3a1-4680-96bf-76a21a28bbdf)
+
+ِDONE.
